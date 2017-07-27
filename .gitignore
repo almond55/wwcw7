@@ -7,3 +7,4 @@ buildout.cfg
 *.egg-info/
 .installed.cfg
 *.DS_Store
+*.pyc
