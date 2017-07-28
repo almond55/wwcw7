@@ -9,3 +9,4 @@ buildout.cfg
 .installed.cfg
 *.DS_Store
 *.pyc
+wwcw7_test
