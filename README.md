@@ -36,3 +36,15 @@ localhost:8000/
 To look into your database:
 
 shell>> bin/manage dbshell
+
+-------------------------------------
+
+Write your Python test code in the 'tests' folder.
+
+To run your test:
+
+shell>> bin/manage test tests.yourtestfile -v 2
+
+If you have a pdb debug line in your test code:
+
+shell>> bin/manage test tests.yourtestfile -s
