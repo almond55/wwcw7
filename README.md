@@ -19,15 +19,15 @@ Windows & Mac: https://www.sqlite.org/download.html
 
 Run these commands in the same project directory:
 
->> python bootstrap.py
+shell>> python bootstrap.py
 
->> bin/buildout
+shell>> bin/buildout
 
->> bin/manage migrate
+shell>> bin/manage migrate
 
 To run the web server:
 
->> bin/manage runserver
+shell>> bin/manage runserver
 
 To view in your browser:
 
@@ -35,4 +35,4 @@ localhost:8000/
 
 To look into your database:
 
->> bin/manage dbshell
+shell>> bin/manage dbshell
