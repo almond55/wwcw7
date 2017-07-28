@@ -1,15 +1,38 @@
 # wwcw7
 Testing Workshop for Women Who Code 2017/7/29
 
-To start, run these commands in the same project directory:
+To start, you will need these if you haven't installed them already:
 
-python bootstrap.py
+You might need libmysqlclient-dev if you're stuck. 
 
-bin/buildout
+linux>> sudo apt-get install libmysqlclient-dev
 
-Note: You might need libmysqlclient-dev if you're stuck. The Windows equivalent can be downloaded at: https://dev.mysql.com/downloads/connector/c/
+The Windows equivalent can be downloaded at: https://dev.mysql.com/downloads/connector/c/
 
 You'll also need sqlite3 installed:
 
-linux: sudo apt-get install sqlite3
-windows & mac: https://www.sqlite.org/download.html
+linux>> sudo apt-get install sqlite3
+
+Windows & Mac: https://www.sqlite.org/download.html
+
+----------------------------------------
+
+Run these commands in the same project directory:
+
+>>python bootstrap.py
+
+>>bin/buildout
+
+>>bin/manage migrate
+
+To run the web server:
+
+>>bin/manage runserver
+
+To view in your browser:
+
+localhost:8000/
+
+To look into your database:
+
+>>bin/manage dbshell
