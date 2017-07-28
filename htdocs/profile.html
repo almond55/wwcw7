@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load widget_tweaks %}
+{% load humanize %}
+
+{% block content %}
+<div class="jumbotron text-center">
+  <h1>You logged in!</h1>
+  <p>You can always log out again</p>
+  <a href="../accounts/logout" class="btn btn-info" role="button">Logout</a>
+</div>
+{% endblock content %}

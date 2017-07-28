@@ -36,6 +36,9 @@ eggs =
     django-storages
     template-utils
     django-allauth
+    django-widget-tweaks
+    requests
+    Jinja2
 scripts =
 
 [wwcw7]

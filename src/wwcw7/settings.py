@@ -97,8 +97,11 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     #'django.contrib.staticfiles',
     'django.contrib.admin',
+    'django.contrib.humanize',
     'allauth',
     'allauth.account',
+    'allauth.socialaccount',
+    'widget_tweaks',
 )
 
 AUTHENTICATION_BACKENDS = (
@@ -116,6 +119,6 @@ ACCOUNT_EMAIL_REQUIRED                  = True
 ACCOUNT_EMAIL_VERIFICATION              = "none"
 ACCOUNT_UNIQUE_EMAIL                    = True
 ACCOUNT_AUTHENTICATION_METHOD           = "email"
-
+LOGIN_REDIRECT_URL                      = 'profile'
 
 

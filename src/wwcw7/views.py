@@ -16,11 +16,6 @@ class TopPage(View):
         response_dict = {}
         return render(request, _TEMPLATE_PATH, response_dict)
 
-class WWCSignupView(SignupView):
-    @sensitive_post_parameters_m
-    def dispatch(self, request, *args, **kwargs):
-        return super(SignupView, self).dispatch(request, *args, **kwargs)
-
 class ProfilePage(View):
     @method_decorator(login_required)
     def get(self, request, *args, **kwargs):
