@@ -43,8 +43,8 @@ Write your Python test code in the 'tests' folder.
 
 To run your test:
 
-shell>> bin/manage test tests.yourtestfile -v 2
+shell>> bin/manage test tests_wwcw7 -v 2
 
 If you have a pdb debug line in your test code:
 
-shell>> bin/manage test tests.yourtestfile -s
+shell>> bin/manage test tests_wwcw7
