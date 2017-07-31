@@ -31,7 +31,7 @@ find-links =
     http://django-template-utils.googlecode.com/files/template_utils-0.4p2.tar.gz
     https://github.com/k4ml/mk.recipe.modwsgi/archive/master.zip#egg=mk.recipe.modwsgi
 eggs = 
-    MySQL-python
+    mysqlclient
     Django
     django-storages
     template-utils
